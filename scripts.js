@@ -52,9 +52,9 @@ if (cash > 10) {
 
 /************************** Exercise 3 ***********************/
 
-let userAge = 5;
+let userAge = 18;
 
-if (userAge > 18) {
+if (userAge >= 18) {
   console.log("You can vote.");
 } else {
   console.log("You can't vote.");
@@ -63,6 +63,8 @@ if (userAge > 18) {
 // Run the above code to see what it logs to the console.
 
 // What will it log if we change the age to 25? Write your guess here, and then make that change and see if you were right.
+
+// you can vote 
 
 // People whose age is 18 can vote in the U.S, but currently, if `userAge` is 18, we'll log that the user cannot vote. Fix the condition of the `if` statement so that it works correctly.
 
