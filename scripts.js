@@ -1,9 +1,11 @@
 /************************** Exercise 1 ***********************/
 
 // List five different examples where a web app uses a conditional statement.
-
-
-
+// when you need to be a cretin age to be able to access parts of a website 
+// when they have things to show people who live in a specific country 
+// when giving a user a survey or asking for feedback 
+// when keeping track of subscriptions 
+// 
 
 
 
