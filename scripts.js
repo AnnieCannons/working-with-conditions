@@ -16,10 +16,6 @@
 let cash = 18;
 let lunch = "granola bar";
 
-if (cash > 10) {
-  lunch = "sandwich";
-}
-
 if (cash > 15) {
   lunch = "fancy sandwich";
 }
@@ -28,26 +24,31 @@ if (cash > 20) {
   lunch = "lobster rolls";
 }
 
+if (cash > 10) {
+  lunch = "sandwich";
+}
+
+
 // After we execute the above code, what will be the value of `lunch`? Think about it for a bit, write down a guess below, then log the value of `lunch` to the console to see if you were right.
 
-
+// fancy sandwich 
 
 // Try changing the value of `cash` (you can directly change the value we assign to it above) to the following values. For EACH value, write down your guess as to what the value of `lunch` will be, then log the result to the console to double-check your answer. If writing `console.log` statements in this file, you only have to write one `console.log` statement for this question.
 
 // - What will be the value of `lunch` when `cash` is 12?
-
+// Sandwich
 
 // - What will be the value of `lunch` when `cash` is 4?
-
+// Sandwich
 
 // - What will be the value of `lunch` when `cash` is 35?
-
+// lobster rolls
 
 // What happens if you rearrange the if statements? Move the first `if` statement (the one with the condition `cash < 10`) and its whole code block (that is, all three lines of the if statement) down below the three lines of the last `if` statement. Then CHANGE the value of `cash` to 18.
 
 // Write down here what you think the result will be. Then log the result to the console to check your assumption.
 
-
+// sandwich 
 
 /************************** Exercise 3 ***********************/
 
