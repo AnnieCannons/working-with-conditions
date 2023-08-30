@@ -2,8 +2,12 @@
 
 // List five different examples where a web app uses a conditional statement.
 
-
-
+// age verification
+// location
+// singing up for emails
+// automatic updates on
+//profile public vs private
+// 
 
 
 
@@ -11,7 +15,7 @@
 
 /************************** Exercise 2 ***********************/
 
-let cash = 18;
+let cash = 35;
 let lunch = "granola bar";
 
 if (cash > 10) {
@@ -28,20 +32,25 @@ if (cash > 20) {
 
 // After we execute the above code, what will be the value of `lunch`? Think about it for a bit, write down a guess below, then log the value of `lunch` to the console to see if you were right.
 
-
+console.log(lunch);
 
 // Try changing the value of `cash` (you can directly change the value we assign to it above) to the following values. For EACH value, write down your guess as to what the value of `lunch` will be, then log the result to the console to double-check your answer. If writing `console.log` statements in this file, you only have to write one `console.log` statement for this question.
 
 // - What will be the value of `lunch` when `cash` is 12?
 
+//sandwich 
 
 // - What will be the value of `lunch` when `cash` is 4?
 
+//granola bar
 
 // - What will be the value of `lunch` when `cash` is 35?
 
+// lobster rolls
 
 // What happens if you rearrange the if statements? Move the first `if` statement (the one with the condition `cash < 10`) and its whole code block (that is, all three lines of the if statement) down below the three lines of the last `if` statement. Then CHANGE the value of `cash` to 18.
+
+
 
 // Write down here what you think the result will be. Then log the result to the console to check your assumption.
 
@@ -51,7 +60,7 @@ if (cash > 20) {
 
 let userAge = 5;
 
-if (userAge > 18) {
+if (userAge > 17) {
   console.log("You can vote.");
 } else {
   console.log("You can't vote.");
@@ -59,11 +68,15 @@ if (userAge > 18) {
 
 // Run the above code to see what it logs to the console.
 
+
+
 // What will it log if we change the age to 25? Write your guess here, and then make that change and see if you were right.
+
+// you can vote.
 
 // People whose age is 18 can vote in the U.S, but currently, if `userAge` is 18, we'll log that the user cannot vote. Fix the condition of the `if` statement so that it works correctly.
 
-
+// fix it to if user is over 17
 
 /************************** Exercise 4 ***********************/
 
@@ -75,7 +88,12 @@ if (userAge > 18) {
 // Create a conditional statement that will check to see if the number is positive or negative. Alert (or log to the console) a message telling the user which it is.
 
 
-
+if (prompt >= 0) {
+  console.log('That number is positive!');
+}
+else {
+  console.log('That number is negative!');
+}
 
 
 
@@ -93,7 +111,12 @@ const profit = salesTotal - wholesalePrice * quantity;
 // Write a conditional statement for your online store. If the profit is greater than $400, log to the console, 'You are good for today!'. If the profit is less than or equal to $400, log the string, 'You need to keep working!'
 
 
-
+if (profit > 400) {
+  console.log('You are good for today!');
+}
+  else {
+    console.log('You need to keep working!')
+  }
 
 
 
