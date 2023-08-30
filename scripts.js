@@ -72,7 +72,7 @@ if (userAge >= 18) {
 
 /************************** Exercise 4 ***********************/
 
-// let userResponse = prompt("Give me a number, any number, and I will tell you whether it is positive or negative.");
+let userResponse = prompt("Give me a number, any number, and I will tell you whether it is positive or negative.");
 
 // Remove the `//` from the front of the line above. (Feel free to add them back when you're done with this section, so you don't get prompts for a problem you're not working on.)
 
@@ -81,7 +81,12 @@ if (userAge >= 18) {
 
 
 
-
+if (userResponse <5){
+  console.log("negative")
+}
+if (userResponse >5){
+  console.log("positive")
+}
 
 
 
