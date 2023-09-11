@@ -75,17 +75,20 @@ console.log(userAge);
 
 
 /************************** Exercise 4 ***********************/
+// Remove the `//` from the front of the line above. (Feel free to add them back when you're done with this section, so you don't get prompts for a problem you're not working on.)
+
+// Create a conditional statement that will check to see if the number is positive or negative. 
+// Alert (or log to the console) a message telling the user which it is.
 
 let userResponse = prompt("Give me a number, any number, and I will tell you whether it is positive or negative.");
 
-// Remove the `//` from the front of the line above. (Feel free to add them back when you're done with this section, so you don't get prompts for a problem you're not working on.)
-
-
-// Create a conditional statement that will check to see if the number is positive or negative. Alert (or log to the console) a message telling the user which it is.
-
-
-
-
+if (userResponse > 0) {
+  console.log("The number is positive.");
+} else if(userResponse < 0) {
+  console.log("The number is negative.");
+} else {
+  console.log("The number is 0.");
+}
 
 
 
@@ -99,9 +102,15 @@ const salesTotal = retailPrice * quantity;
 const profit = salesTotal - wholesalePrice * quantity;
 
 
-// Write a conditional statement for your online store. If the profit is greater than $400, log to the console, 'You are good for today!'. If the profit is less than or equal to $400, log the string, 'You need to keep working!'
+// 1. Write a conditional statement for your online store. 
+// 2. If the profit is greater than $400, log to the console, 'You are good for today!'. 
+// 3. If the profit is less than or equal to $400, log the string, 'You need to keep working!'
 
-
+if (profit > 400) {
+  console.log("You are good for today!");
+} else if (profit <= 400) {
+  console.log("You need to keep working!");
+}
 
 
 
@@ -122,11 +131,12 @@ function evenOrOdd(number) {
 }
 
 // Call the above function so that it evaluates to "Even", and save that value in a variable. Log the variable's value to the console.
-
-
+let num1 = evenOrOdd(4);
+console.log(num1);
 
 // Call the above function so that it evaluates to "Odd", and save that value in a variable. Log the variable's value to the console.
-
+let num2 = evenOrOdd(7);
+console.log(num2);
 
 
 
