@@ -141,7 +141,6 @@ console.log(num2);
 
 // Create a function that takes in one argument, a user's password. 
 // Check to see if the password is longer than 12 characters. If it is, alert 'Welcome', if it is not, alert 'You need to enter a longer password.'
-
 function pwdChk(userPassword) {
   if (userPassword.length >= 12) {
     alert ("Welcome!");
@@ -156,4 +155,16 @@ pwdChk("DailyPasswords");
 
 /************************** Exercise 8 ***********************/
 
-// Create a function that takes in two arguments, a user's password and what the user wrote to confirm their password. Check to see if the user's passwords are the exact same string. If they are, alert 'Welcome', if they are not, alert 'Your passwords do not match.'
+// Create a function that takes in two arguments, a user's password and what the user wrote to confirm their password. 
+// Check to see if the user's passwords are the exact same string. 
+// If they are, alert 'Welcome', if they are not, alert 'Your passwords do not match.'
+
+function confirmPwd(password, password2) {
+  if (password === password2) {
+    alert ("Welcome!")
+  } else {
+    alert ("Your passwords do not match.")
+  }
+}
+confirmPwd("password", "password2");
+confirmPwd("password", "password");
