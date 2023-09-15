@@ -2,11 +2,11 @@
 
 // List five different examples where a web app uses a conditional statement.
 
-//1. passwords
-//2. user info
-//3. login info
-//4. validations/verifications
-//5. privacy
+//1. Form Validation
+//2. user info/authentification
+//3. personalized content/info
+//4. shopping cart 
+//5. Responsive design
 
 
 
@@ -68,10 +68,11 @@ console.log(userAge);
 // Run the above code to see what it logs to the console.
 
 // What will it log if we change the age to 25? Write your guess here, and then make that change and see if you were right.
-//with return- "you can vote"
+//will return- "you can vote"
 
-// People whose age is 18 can vote in the U.S, but currently, if `userAge` is 18, we'll log that the user cannot vote. Fix the condition of the `if` statement so that it works correctly.
-//
+// People whose age is 18 can vote in the U.S, but currently, if `userAge` is 18, we'll log that the user cannot vote. 
+// Fix the condition of the `if` statement so that it works correctly.
+//changed to 17
 
 
 /************************** Exercise 4 ***********************/
@@ -89,8 +90,6 @@ if (userResponse > 0) {
 } else {
   console.log("The number is 0.");
 }
-
-
 
 
 /************************** Exercise 5 ***********************/
@@ -138,19 +137,22 @@ console.log(num1);
 let num2 = evenOrOdd(7);
 console.log(num2);
 
-
-
-
-
 /************************** Exercise 7 ***********************/
 
-// Create a function that takes in one argument, a user's password. Check to see if the password is longer than 12 characters. If it is, alert 'Welcome', if it is not, alert 'You need to enter a longer password.'
+// Create a function that takes in one argument, a user's password. 
+// Check to see if the password is longer than 12 characters. If it is, alert 'Welcome', if it is not, alert 'You need to enter a longer password.'
 
-
-
-
-
-
+function pwdChk(userPassword) {
+  if (userPassword.length >= 12) {
+    alert ("Welcome!");
+  } else {
+    alert ("You need to enter a longer password.")
+  }
+}
+pwdChk("DailyPasswo");
+pwdChk("DailyPasswor");
+pwdChk("DailyPassword");
+pwdChk("DailyPasswords");
 
 /************************** Exercise 8 ***********************/
 
