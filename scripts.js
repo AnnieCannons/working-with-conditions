@@ -104,10 +104,10 @@ if (userAge >= 18) {
 if (Number(userResponse) > 0) {
   console.log(`${userResponse} is a positive number!`)}
 
-  if (Number(userResponse) < 0) {
+  else if (Number(userResponse) < 0) {
     console.log(`${userResponse} is a negative number!`)
   }
-  if (Number(userResponse) === 0) {
+  else (Number(userResponse) === 0) {
     console.log(`${userResponse} is neither positive or negative.`)
   }
 
@@ -138,7 +138,7 @@ if (profit > 400) {
 }
 }
 
-onlineStore(400);
+onlineStore(profit);
 
 
 
