@@ -72,21 +72,23 @@ if (userAge >= 18) {
 
 /************************** Exercise 4 ***********************/
 
-// let userResponse = prompt("Give me a number, any number, and I will tell you whether it is positive or negative.");
+let userResponse = prompt("Give me a number, any number, and I will tell you whether it is positive or negative.");
 
 // Remove the `//` from the front of the line above. (Feel free to add them back when you're done with this section, so you don't get prompts for a problem you're not working on.)
 
 
 // Create a conditional statement that will check to see if the number is positive or negative. Alert (or log to the console) a message telling the user which it is.
 
+let number = parseFloat(userResponse);
 
+if (number > 0){
+  console.log("The number is positive")
+}else if (number <0){
+  console.log('The number is negative')
+}else{
+  console.log("The number is zero.")
+}
 
-// if (userResponse <= 5){
-  // console.log("negative")
-// }
-// if (userResponse > 5){
-  // console.log("positive")
-// }
 
 
 
@@ -105,10 +107,10 @@ const profit = salesTotal - wholesalePrice * quantity;
 
 if (profit > 400){
   console.log("you are good for today!")
-}
-if (profit <= 400){
+}else if (profit <= 400){
   console.log ("you need to keep working!")
 }
+ 
 
 
 
