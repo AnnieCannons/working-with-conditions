@@ -99,18 +99,18 @@ if (userAge >= 18) {
 
 // Create a conditional statement that will check to see if the number is positive or negative. Alert (or log to the console) a message telling the user which it is.
 
-//let userResponse = prompt("Give me a number, any number, and I will tell you whether it is positive or negative.");
+let userResponse = prompt("Give me a number, any number, and I will tell you whether it is positive or negative.");
 
-if (Number(userResponse) > 0) {
-  console.log(`${userResponse} is a positive number!`)}
-
-  else if (Number(userResponse) < 0) {
-    console.log(`${userResponse} is a negative number!`)
-  }
-  else (Number(userResponse) === 0) {
-    console.log(`${userResponse} is neither positive or negative.`)
-  }
-
+let number = parseFloat(userResponse);
+  if (isNaN(number)) {
+    alert("That's not a valid number.");
+  } else if (number > 0) {
+    alert("The number is positive.");
+  } else if (number < 0) {
+    alert("The number is negative.");
+  } else {
+    alert("The number is zero.");
+  };
 
 
 
