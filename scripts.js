@@ -30,27 +30,31 @@ if (cash > 20) {
 // After we execute the above code, what will be the value of `lunch`? Think about it for a bit, write down a guess below, then log the value of `lunch` to the console to see if you were right.
 
 
-
 // Try changing the value of `cash` (you can directly change the value we assign to it above) to the following values. For EACH value, write down your guess as to what the value of `lunch` will be, then log the result to the console to double-check your answer. If writing `console.log` statements in this file, you only have to write one `console.log` statement for this question.
 
 // - What will be the value of `lunch` when `cash` is 12?
 
-
+// "sandwish"
 // - What will be the value of `lunch` when `cash` is 4?
 
+//"granola bar"
 
 // - What will be the value of `lunch` when `cash` is 35?
 
+// "Lobster rolls"
 
 // What happens if you rearrange the if statements? Move the first `if` statement (the one with the condition `cash < 10`) and its whole code block (that is, all three lines of the if statement) down below the three lines of the last `if` statement. Then CHANGE the value of `cash` to 18.
 
+// "fancy Sandwich"
+
 // Write down here what you think the result will be. Then log the result to the console to check your assumption.
 
+console.log("lunch");
 
 
 /************************** Exercise 3 ***********************/
 
-let userAge = 5;
+//let userAge = 5;
 
 if (userAge > 18) {
   console.log("You can vote.");
@@ -67,7 +71,13 @@ if (userAge > 18) {
 
 // People whose age is 18 can vote in the U.S, but currently, if `userAge` is 18, we'll log that the user cannot vote. Fix the condition of the `if` statement so that it works correctly.
 
+let userAge = 25;
 
+if (userAge > 18) {
+  console.log("You can vote.");
+} else {
+  console.log("You can't vote.");
+}
 
 /************************** Exercise 4 ***********************/
 
